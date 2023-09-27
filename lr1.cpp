@@ -115,7 +115,7 @@ int main(int argc, char argv[])
 {
 	setlocale(0, "rus");
 
-	cout << "1) Зашифровать\n2) Расшифровать\n3) Взломать ключ" << endl;
+	cout << "1) Зашифровать\n2) Расшифровать" << endl;
 	int point;
 	for (;;) {
 		cout << "Выберите: ";
@@ -139,10 +139,10 @@ int main(int argc, char argv[])
 			cin >> key;
 			getSymbolFromFile(filename, key, decode);
 		}
-		else if (point == 3) {
+		/*else if (point == 3) {
 			int sub_point;
 			cin >> sub_point;
-		}
+		}*/
 		else {
 			cout << "1 или 2\n";
 		}
