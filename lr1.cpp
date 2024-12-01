@@ -6,7 +6,6 @@
 
 using namespace std;
 
-
 vector<unsigned char> stringToUnsignedChar(const string& key) {
 	vector<unsigned char> ucharVector;
 
